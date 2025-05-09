@@ -1,0 +1,15 @@
+{
+  "name": "Node.js & TypeScript",
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:1-22-bookworm",
+  "postCreateCommand": "chmod +x ${containerWorkspaceFolder}/.devcontainer/post_create.sh && ${containerWorkspaceFolder}/.devcontainer/post_create.sh",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ExodiusStudios.comment-anchors",
+        "dbaeumer.vscode-eslint",
+        "ms-vscode.vscode-typescript-next",
+        "bradlc.vscode-tailwindcss"
+      ]
+    }
+  }
+}
